@@ -1,0 +1,44 @@
+html {background-color: #FFFFFF}
+* { padding:0px; margin:1px}
+header {
+          margin: auto;
+          width:1300px;
+          font-family: Arial, helvetica, sans-serif;
+          padding: 8px;
+          position: relative  
+          }
+ul, ol { list-style: none;}
+.nav li a {
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block
+}
+
+.nav li a:hover { background-color:red;}
+.nav > li {
+    float:left;
+}
+.nav li ul {display: none;
+            position: absolute;
+            min-width: 140px}
+
+.nav li:hover > ul {display: block}
+
+h1{text-align: left; text-decoration-color: red; font-size: 40px}
+
+ol {list-style-type: decimal; font-family: sans-serif}
+
+table {display: flex; justify-content: center; border-style: solid;
+border-collapse: collapse
+}
+th {background-color: aliceblue; border-collapse:collapse; border: solid 3px}
+td { border-style:
+    solid;
+    padding: 7px;
+    background-color: lightcyan}
+form {background-color: floralwhite; width:350px; color:darkred}
+ol li {font-size:25px;}
+h1 {font-size: 35px; text-align: center; background-color: red}
+h2 { font-size: 30px; color:red}
